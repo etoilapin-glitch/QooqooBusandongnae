@@ -1,0 +1,12 @@
+{
+  "title": "쿠우쿠우 골드 부산동래점 | 프리미엄 초밥 뷔페",
+  "description": "신선한 초밥과 다채로운 요리를 즐기는 쿠우쿠우 골드 부산동래점. 이용 가격, 영업시간, 위치와 예약 정보를 확인하세요.",
+  "language": "ko",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
