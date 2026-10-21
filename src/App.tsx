@@ -334,8 +334,10 @@ export default function App() {
             <small>미취학 아동은 36개월 이상부터 적용됩니다.</small>
           </div>
           <p className="pricing__note">
-            가격 및 운영 정보는 매장 사정에 따라 변경될 수 있습니다. 방문 전
-            예약 페이지에서 최신 정보를 확인해 주세요.
+            가격 및 운영 정보는 매장 사정에 따라 변경될 수 있습니다.{" "}
+            <span className="max-[560px]:block">
+              방문 전 예약 페이지에서 최신 정보를 확인해 주세요.
+            </span>
           </p>
         </section>
 
