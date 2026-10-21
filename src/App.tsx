@@ -224,7 +224,8 @@ export default function App() {
             <p className="hero__copy">
               신선한 초밥과 다채로운 요리를 한자리에서.
               <br />
-              쿠우쿠우 골드 부산동래점에서 특별한 식사를 즐겨보세요.
+              쿠우쿠우 골드 부산동래점에서 특별한 식사를{" "}
+              <span className="max-[560px]:block">즐겨보세요.</span>
             </p>
             <div className="hero__actions">
               <ButtonLink href={catchtableUrl}>
