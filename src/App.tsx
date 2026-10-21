@@ -216,8 +216,8 @@ export default function App() {
           <div className="hero__veil" />
           <div className="hero__content">
             <p className="eyebrow">Premium Sushi &amp; Dining Buffet</p>
-            <h1>
-              오늘의 맛있는 순간,
+            <h1 className="max-[560px]:!text-[8.3vw]">
+              <span className="whitespace-nowrap">오늘의 맛있는 순간,</span>
               <br />
               <em>골드</em>로 완성하다
             </h1>
