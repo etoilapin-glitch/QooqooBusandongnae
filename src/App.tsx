@@ -16,7 +16,7 @@ const photos = {
 
 type IconName = "arrow" | "calendar" | "car" | "clock" | "close" | "family" | "location" | "menu" | "phone" | "sparkle" | "train" | "users"
 
-function Icon({ name, size = 20 }: { name: IconName size?: number }) {
+function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
   const paths: Record<IconName, ReactNode> = {
     arrow: (
       <>
