@@ -175,7 +175,7 @@ export default function App() {
 
   return (
     <div className="site-shell">
-      <header className="site-header">
+      <header className="site-header !fixed">
         <a aria-label="홈으로" className="brand" href="#home">
           <span className="brand__word">QOOQOO</span>
           <span className="brand__gold">GOLD</span>
